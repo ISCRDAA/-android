@@ -63,7 +63,7 @@ public class RegistroActivity extends AppCompatActivity {
         btnatrasact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(RegistroActivity.this, Menu.class);
+                Intent intent = new Intent(RegistroActivity.this, MenuActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -172,4 +172,3 @@ public class RegistroActivity extends AppCompatActivity {
         requestQueue.add(stringArray);
     }
     }
-}

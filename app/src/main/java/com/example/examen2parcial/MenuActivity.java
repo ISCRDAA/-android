@@ -33,9 +33,9 @@ public class MenuActivity extends AppCompatActivity {
         btnregistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MenuActivity.this,Registrar.class);
-                //startActivity(intent);
-                //finish();
+                Intent intent = new Intent(MenuActivity.this,RegistroActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
