@@ -1,0 +1,122 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvid1"
+        android:text="ACTUALIZAR PRODUCTO"
+        android:textSize="35sp"
+        android:textAlignment="center"
+
+        />
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Codigo de barras"
+                android:id="@+id/etcodigo_baras"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="scanner"
+                android:layout_margin="10dp"
+                android:id="@+id/btnscann"/>
+
+
+
+
+
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fecha"
+                android:id="@+id/etfecha"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero de factura"
+                android:id="@+id/etnumfact"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cantidad del producto"
+                android:id="@+id/etcantidad"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Monto de factura"
+                android:id="@+id/etmontofact"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Precio del producto"
+                android:id="@+id/etprecio"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="GUARDAR"
+                android:layout_margin="10dp"
+                android:id="@+id/btnguardar"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="ATRAS"
+                android:layout_margin="10dp"
+                android:id="@+id/btnatrasact"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
