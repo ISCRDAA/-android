@@ -1,0 +1,113 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvid1"
+        android:text="BUSCAR PRODUCTO"
+        android:textSize="35sp"
+        android:textAlignment="center"
+
+        />
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Codigo de barras "
+                android:id="@+id/etcodbus"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="scanner"
+                android:layout_margin="10dp"
+                android:id="@+id/btnscannbus"/>
+
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre del producto"
+                android:id="@+id/etnombus"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Precio del producto"
+                android:id="@+id/etprebus"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero de piezas"
+                android:id="@+id/etcantbus"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción del producto"
+                android:id="@+id/etdesbus"
+                android:textSize="20sp"
+                android:textAlignment="center"
+
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="BUSCAR"
+                android:layout_margin="10dp"
+                android:id="@+id/btnbuscarprod"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="ATRAS"
+                android:layout_margin="10dp"
+                android:id="@+id/btntrascons"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
