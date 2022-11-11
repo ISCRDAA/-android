@@ -67,7 +67,7 @@ public class BuscarProductoActivity extends AppCompatActivity {
         btnbuscarprod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Buscar("http://192.168.8.117/serviceexamen/buscarprod.php?codigo_barras="+etcodbus.getText().toString());
+                Buscar("http://192.168.1.71/Login/buscarprod.php?codigo_barras="+etcodbus.getText().toString());
 
             }
         });

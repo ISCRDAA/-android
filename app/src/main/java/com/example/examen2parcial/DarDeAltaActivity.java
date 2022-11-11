@@ -44,7 +44,7 @@ public class DarDeAltaActivity extends AppCompatActivity {
         btnagregarprod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                regitrar("http://192.168.8.117/serviceexamen/insertarprod.php");
+                regitrar("http://192.168.1.71/Login/insertarprod.php");
 
             }
         });

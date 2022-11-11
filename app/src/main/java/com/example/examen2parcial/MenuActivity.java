@@ -24,9 +24,9 @@ public class MenuActivity extends AppCompatActivity {
         btnAlta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Intent intent = new Intent(MenuActivity.this,Alta.class);
-                //startActivity(intent);
-                //finish();
+               Intent intent = new Intent(MenuActivity.this,DarDeAltaActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -42,9 +42,9 @@ public class MenuActivity extends AppCompatActivity {
         btnbuscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(MenuActivity.this,Buscar.class);
-                //startActivity(intent);
-                //finish();
+                Intent intent = new Intent(MenuActivity.this,BuscarProductoActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
