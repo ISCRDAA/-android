@@ -38,7 +38,8 @@
                 android:textSize="30sp"
                 android:text="scanner"
                 android:layout_margin="10dp"
-                android:id="@+id/btnscannbus"/>
+                android:id="@+id/btnscannbus"
+                style="?attr/materialButtonOutlinedStyle"/>
 
 
 
@@ -91,7 +92,8 @@
                 android:textSize="30sp"
                 android:text="BUSCAR"
                 android:layout_margin="10dp"
-                android:id="@+id/btnbuscarprod"/>
+                android:id="@+id/btnbuscarprod"
+                style="?attr/materialButtonOutlinedStyle"/>
 
             <Button
                 android:layout_width="match_parent"

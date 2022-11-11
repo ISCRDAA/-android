@@ -36,7 +36,9 @@
                 android:textSize="30sp"
                 android:text="scanner"
                 android:layout_margin="10dp"
-                android:id="@+id/btnscann"/>
+                android:id="@+id/btnscann"
+
+                style="?attr/materialButtonOutlinedStyle"/>
 
 
 
@@ -78,7 +80,8 @@
                 android:textSize="30sp"
                 android:text="AGREGAR"
                 android:layout_margin="10dp"
-                android:id="@+id/btnagregarprod"/>
+                android:id="@+id/btnagregarprod"
+                style="?attr/materialButtonOutlinedStyle"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
