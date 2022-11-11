@@ -73,8 +73,8 @@ public class RegistroActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 regitrar("http://192.168.0.91:8888/Login/regprodfact.php");
-                Buscar("http://192.168.0.91:8888/Login/buscarcant.php?codigo_barras="+etcodigo_baras.getText().toString());
-                actualizar("http://192.168.0.91:8888/Login/actualizar.php?codigo_barras=" + etcodigo_baras.getText().toString()+"&cantidad="+etcantidad.getText().toString());
+                //Buscar("http://192.168.0.91:8888/Login/buscarcant.php?codigo_barras="+etcodigo_baras.getText().toString());
+                //actualizar("http://192.168.0.91:8888/Login/actualizar.php?codigo_barras=" + etcodigo_baras.getText().toString()+"&cantidad="+etcantidad.getText().toString());
 
 
 
