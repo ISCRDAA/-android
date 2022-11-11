@@ -101,7 +101,7 @@ public class RegistroActivity extends AppCompatActivity {
                 parametros.put("codigo_barras", etcodigo_baras.getText().toString());
                 parametros.put("fecha", etfecha.getText().toString());
                 parametros.put("num_fact", etnumfact.getText().toString());
-                parametros.put("cantidad", etcantidad.toString());
+                parametros.put("cantidad", etcantidad.getText().toString());
                 parametros.put("monto_fact", etmontofact.getText().toString());
                 parametros.put("precio", etprecio.getText().toString());
                 return parametros;
